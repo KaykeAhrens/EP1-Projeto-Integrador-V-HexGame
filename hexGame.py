@@ -97,7 +97,3 @@ class JogoHex:
                     print("\n❌ Movimento inválido, tente novamente.\n")
             except ValueError:
                 print("\n⚠️ Entrada inválida! Use números separados por espaço.\n")
-
-if __name__ == "__main__":
-    jogo = JogoHex()
-    jogo.jogar()
